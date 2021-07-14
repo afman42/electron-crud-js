@@ -1,8 +1,9 @@
 var $ = require('jquery');
+require('jquery/dist/jquery.js');
 require('bootstrap/dist/css/bootstrap.min.css');
-require('bootstrap/dist/js/bootstrap.bundle.js');
-require('popper.js');
 require('bootstrap/dist/js/bootstrap.min.js');
+require('popper.js');
+require('bootstrap/dist/js/bootstrap.bundle.js');
 var current_page = 1;
 var records_per_page = 3;
 

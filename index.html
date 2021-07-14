@@ -8,7 +8,7 @@
 <body>
     <h1 class="text-center">CRUD JS 
         <a href="javascript:changePage(1)" class="btn btn-sm btn-success">Refresh</a>
-        <button type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+        <button type="button" class="btn btn-sm btn-primary" data-toggle="modal" id="TambahModal">
             Tambah
         </button>
     </h1>
@@ -35,16 +35,16 @@ page: <span id="page"></span>
             <form method="post" id="FormTambah">
                 <div class="form-group">
                     <label>Title</label>
-                    <input type="text" class="form-control" name="title" required>
+                    <input type="text" class="form-control" name="title" id="title">
                 </div>
                 <div class="form-group">
                     <label>Body</label>
-                    <textarea name="body" rows="5" class="form-control" required></textarea>
+                    <textarea name="body" rows="5" class="form-control" id="body"></textarea>
                 </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
-          <button type="button" class="btn btn-primary">Simpan</button>
+          <button type="submit" class="btn btn-primary">Simpan</button>
         </form>
 
         </div>
